@@ -29,7 +29,7 @@ def main():
     else:
         pi = monPi(n)
         print("Pi = ", pi)
-        print("Erreur relative = ", (pi - math.pi) / math.pi * 100, "%")
+        print("Erreur relative = ", abs(pi - math.pi) / math.pi * 100, "%")
 
 
 if __name__ == "__main__":
